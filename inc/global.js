@@ -9,8 +9,8 @@
 		var PARENT = document.getElementById('content'),
 			PARENTWIDTH = PARENT.clientWidth,
 			PARENTHEIGHT = PARENT.clientHeight,
-			NODEWIDTH = 71, // update this after a node element is added
-			NODEHEIGHT = 71, // update this after a node element is added
+			NODEWIDTH = 61, // update this after a node element is added
+			NODEHEIGHT = 61, // update this after a node element is added
 			ROWS = [],
 			COLOR = document.body.className,
 			MOUSEDOWN = 0,
@@ -51,7 +51,7 @@
 
 		// DRAW OR ERASE COLOR NODE, STORE IN ARTWORK ARRAY
 		this.togglePeg = function ( el, click ) {
-			var root = 85, // top left note
+			var root = 80, // top left note
 				col = 0, // add half step to the right
 				row = 0, // drop a 5th every row
 				note = 0;
